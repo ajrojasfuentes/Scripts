@@ -182,6 +182,7 @@ fi
 echo "Instalando OpenJDK 11, 18 y 21 vía sdkman..."
 sdk install java 11.0.20-tem
 sdk install java 18.0.2-tem -y
+echo -y
 run_sudo apt install default-jre -y
 
 upg
