@@ -15,7 +15,7 @@
 # -------------------------------
 
 # Contraseña de sudo (NO UTILIZAR EN PRODUCCIÓN)
-PASSWORD="118010157-AjRf"
+PASSWORD="SetiAlajuela25"
 
 # Función para ejecutar comandos con sudo de forma automática
 run_sudo() {
