@@ -180,9 +180,9 @@ fi
 # OpenJDK: Instalamos versiones 11, 18 y 21 vía sdkman
 # Nota: Los identificadores de versión pueden variar. Se usan aquí ejemplos basados en distribuciones Temurin.
 echo "Instalando OpenJDK 11, 18 y 21 vía sdkman..."
-sudo apt-get install openjdk-11-jdk
+run_sudo apt-get install openjdk-11-jdk
 SDKMAN_AUTO_ANSWER=true sdk install java 18.0.2-open
-echo -y
+run_sudo apt-get install openjdk-21-jdk
 run_sudo apt install default-jre -y
 
 upg
